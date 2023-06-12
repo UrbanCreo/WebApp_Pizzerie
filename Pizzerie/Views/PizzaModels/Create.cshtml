@@ -1,0 +1,143 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model Pizzerie.Models.PizzaViewModel
+@{
+    ViewData["Title"] = "Přidat pizzu";
+}
+
+<div class="grid-container">
+    <!-- Header -->
+    <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+            <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+            <span class="material-icons-outlined">search</span>
+        </div>
+        <div class="header-right">
+            <ul class="navbar-nav">
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <li class="nav-item">
+                        <span class="nav-link">@UserManager.GetUserAsync(User).Result.UserName.Split("@")[0]</span>
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline" asp-area="" asp-controller="Account" asp-action="Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <button type="submit" class="nav-link btn btn-link">Odhlásit</button>
+                        </form>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Přihlášení</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Register">Registrace</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </header>
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <div class="sidebar-title">
+            <div class="sidebar-brand">
+                <span></span> Administrace
+            </div>
+            <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+            <li class="sidebar-list-item">
+                <a asp-area="" asp-controller="Dashboard" asp-action="Index">
+                    <span class="material-icons-outlined">home</span> Hlavní panel
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a asp-area="" asp-controller="Dashboard" asp-action="SectionEdit">
+                    <span class="material-icons-outlined">dashboard</span> Editor sekcí
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a asp-area="" asp-controller="Dashboard" asp-action="GaleryEdit">
+                    <span class="material-icons-outlined">image</span> Editor galerie
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a asp-area="" asp-controller="Dashboard" asp-action="MenuEdit">
+                    <span class="material-icons-outlined">restaurant_menu</span> Editor menu
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a asp-area="" asp-controller="Dashboard" asp-action="Administrators">
+                    <span class="material-icons-outlined">groups</span> Administrátoři
+                </a>
+            </li>
+            <li class="sidebar-list-item">
+                <a asp-area="" asp-controller="Dashboard" asp-action="Options">
+                    <span class="material-icons-outlined">settings</span> Nastavení
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <!-- Main -->
+    <main class="main-container">
+        <div class="main-title">
+            <h2>Vytvoření boxu</h2>
+        </div>
+    </main>
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Id" class="control-label"></label>
+                    <input asp-for="Id" class="form-control" />
+                    <span asp-validation-for="Id" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageFile" class="control-label"></label>
+                    <input asp-for="ImageFile" class="form-control" />
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Weight" class="control-label"></label>
+                    <input asp-for="Weight" class="form-control" />
+                    <span asp-validation-for="Weight" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Descripton" class="control-label"></label>
+                    <input asp-for="Descripton" class="form-control" />
+                    <span asp-validation-for="Descripton" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Diameter" class="control-label"></label>
+                    <input asp-for="Diameter" class="form-control" />
+                    <span asp-validation-for="Diameter" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Vytvořit" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    <div>
+        <a asp-action="Index">Zpět</a>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</div>

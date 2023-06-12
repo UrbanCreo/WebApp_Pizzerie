@@ -1,0 +1,47 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <a href="#home"><img src="images/logo-demarco.png" alt=""></a>
+            </div>
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Domů</a>
+                <a href="#about">DeMarco</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Kontakt</a>
+                <!-- ONLINE OBJEDNAVKA design -->
+                <div class="order_online">
+                    <a href="https://objedname.eu/index.php?version=desktop&amp;cc=TOMAS-HAVLICEK&amp;fc=MASTER" target="_blank">
+                        Online objednávka
+                    </a>
+                </div>
+            </nav>
+        </header>
+        @RenderBody()
+        <!-- FOOTER design -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>
+                    &copy; @DateTime.Now.Year Pizzerie De MARCO | Všechna práva vyhrazena.
+                </p>
+            </div>
+        </footer>
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- typed js -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+</html>

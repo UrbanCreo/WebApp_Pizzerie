@@ -1,0 +1,52 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model LoginViewModel
+@inject SignInManager<IdentityUser> SignInManager
+
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Přihlášení";
+}
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Přihlášení</title>
+    <link rel="stylesheet" type="text/css" href="~/css/loginStyle.css" asp-append-version="true">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper sign-in">
+            <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <h2>Přihlášení</h2>
+                <div class="input-group">
+                    <input asp-for="Email" type="text" required>
+                    <label asp-for="Email"></label>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="input-group">
+                    <input asp-for="Password" type="password" required>
+                    <label asp-for="Password"></label>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="remember">
+                    <label asp-for="RememberMe">
+                        <input asp-for="RememberMe" type="checkbox">
+                        @Html.DisplayNameFor(m => m.RememberMe)
+                    </label>
+                </div>
+                <button type="submit">Přihlásit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="~/admin/js/loginScript.js"></script>
+</body>
+</html>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

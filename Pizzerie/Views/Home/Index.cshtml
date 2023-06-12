@@ -1,0 +1,703 @@
+﻿@{
+    ViewData["Title"] = "Pizzerie De Marco";
+}
+
+<!-- DOMU design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Vítejte u nás!</h3>
+            <h1>PIZZERIE <span>De MARCO </span></h1>
+            <p>Vám nabízí širokou nabídku pizzy, jídel, těstovin a nápojů.</p>
+            <p>Výroba těsta je dělána pomocí naší tradiční tajné receptůry, která těstu dává typické italské charizma. 
+            <span><strong>Ochutnáte naši pizzu a budete se k nám neustále vracet!</strong></span></p>
+
+            <div class="btn-box">
+                <a href="#menu" class="btn">Menu</a>
+                <a href="#" class="btn">
+                    <i class='bx bxs-phone-call'></i>774 610 817
+                </a>
+            </div>
+            <div id="slider">
+                <figure>
+                    <img src="images/app2.png" alt="">
+                    <img src="images/action.png" alt="">
+                    <img src="images/app2.png" alt="">
+                    <img src="images/action.png" alt="">
+                    <img src="images/app2.png" alt="">
+                </figure>
+            </div>
+        </div>
+        <div class="home-img">
+            <!-- "https://www.freepik.com/free-photo/smiling-young-delivery-girl-wearing-red-uniform-cap-holding-pizza-box-points-side-isolated-white-wall_13742093.htm#query=pizza%20delivery%20woman&position=10&from_view=search&track=ais" Image by stockking on Freepik-->
+            <img src="images/delivery-girl.png" alt="">
+        </div>
+    </section>
+    <!-- DE MARCO design -->
+    <section class="about" id="about">
+        <div class="home-content">
+            <h2 class="heading"> — PIZZERIE <span>De Marco</span> —</h2>
+            <h1>Havířov</h1>
+            <a href="https://mapy.cz/zakladni?q=Na%20N%C3%A1b%C5%99e%C5%BE%C3%AD%20231%2F6&source=addr&id=9368163&ds=1&x=18.4187825&y=49.7837341&z=17"
+            target="_blank"><h3 class="btn">Na Nábřeží 231/6<i class='bx bxs-map'></i></h3></a>
+            <table id="opening-hours">
+                <tr class="container">
+                    <td>
+                        <h3><span>Otevírací doba</span></h3>
+                    </td>
+                    <td>
+                        <h3><span>Vaříme a rozvážíme</span></h3>
+                    </td>
+                    <td>
+                        <h3><span>Objednávky</span></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><strong>Ne - Čt:</strong> 11:00 - 22:00</p>
+                        <p><strong>Pá - So:</strong> 11:00 - 23:00</p>
+                    </td>
+                    <td>
+                        <p><strong>Ne - Čt:</strong> 11:30 - 21:40</p>
+                        <p><strong>Pá - So:</strong> 11:30 - 22:40</p>
+                    </td>
+                    <td>
+                        <p><strong>Telefon:</strong> 774 610 817</p>
+                        <p><strong>Lze platit i stravenkami!</strong> </p>
+                    </td>
+                </tr>
+            </table>
+            <div class="action">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU design -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="heading">— Naše <span>Menu</span> —</h2>     
+            <div class="menu-container">
+                <div class="menu">
+                    <a href="#menu" class="btn">Pizza</a>
+                    <a href="#pasta" class="btn">Těstoviny</a>
+                    <a href="#minutes" class="btn">Minutky</a>
+                    <a href="#fries" class="btn">Přílohy</a>
+                    <a href="#additions" class="btn">Přídavky</a>
+                    <a href="#drinks" class="btn">Nápoje</a>
+                </div>
+            </div>
+            <!-- PIZZA design -->
+            <h3>Možnost výběru podkladu!<br/><span>Tomátový základ</span> nebo <span>Smetanový základ</span></h3>
+            <div class="menu-container">
+                <div class="menu-box">
+                    <h1 class="item-number" id="item-number-1">1</h1>
+                    <img src="images/pizza/1.png" alt="" id="pizza-image-1">
+                    <h3 id="pizza-name-1">Sýrový speciál<br />650g</h3>
+                    <p id="pizza-description-1">tom. omáčka,<br /> eidam, hermelín,<br />niva, uzený sýr,<br />ementál, šunka</p>
+                    <h4 id="pizza-price-1">165,-Kč / <b id="pizza-diameter"*@>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">2</h1>
+                    <img src="images/pizza/2.png" alt="">
+                    <h3>Šunková<br />550g</h3>
+                    <p>tomatová omáčka,<br />eidam,<br />šunka,<br />oregáno</p>
+                    <h4>139,-Kč / <b>Ø 32cm</b></h4>
+                </div>           
+                <div class="menu-box">
+                    <h1 class="item-number">3</h1>
+                    <img src="images/pizza/3.png" alt="">
+                    <h3>Kuřecí nášup<br />800g</h3>
+                    <p>tom. omáčka, eidam,<br />kuřecí maso, šunka,<br />anglická slanina,<br />paprika, cibule, česnek</p>
+                    <h4>169,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">4</h1>
+                    <img src="images/pizza/4.png" alt="">
+                    <h3>Labužník <span>(ostrá)</span><br />750g</h3>
+                    <p>tom. omáčka, eidam,<br />kuřecí maso, šunka,<br />uzený sýr, paprika,<br />rajče, kozí rohy, česnek</p>
+                    <h4>169,-Kč / <b>Ø 32cm</b></h4>
+                </div>              
+                <div class="menu-box">
+                    <h1 class="item-number">5</h1>
+                    <img src="images/pizza/5.png" alt="">
+                    <h3>Romadúrový sen<br>700g</h3>
+                    <p>tom. omáčka,<br />romadúr, eidam,<br />anglická slanina,<br />klobása, pórek</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>               
+                <div class="menu-box">
+                    <h1 class="item-number">6</h1>
+                    <img src="images/pizza/6.png" alt="">
+                    <h3>DeMarco šok <span>(ostrá)</span><br>750g</h3>
+                    <p>tom. omáčka,<br />eidam, šunka,<br />anglická slanina, hermelín,<br />cibule, feferony</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">7</h1>
+                    <img src="images/pizza/7.png" alt="">
+                    <h3>Slaninová<br>650g</h3>
+                    <p>tom.omáčka,<br />smetana,<br />trojitá porce anglické slaniny,<br />ementál, česnek</p>
+                    <h4>175,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">8</h1>
+                    <img src="images/pizza/8.png" alt="">
+                    <h3>Brokolicová<br>600g</h3>
+                    <p>tom.omáčka,<br />šunka,<br />anglická slanina,<br />brokolice,hermelín</p>
+                    <h4>155,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">9</h1>
+                    <img src="images/pizza/9.png" alt="">
+                    <h3>Pollo<br>750g</h3>
+                    <p>tom.omáčka, šunka, eidam,<br />kuřecí maso, šlehané vejce,<br />žampióny, pórek,<br />česnek, chilli</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">10</h1>
+                    <img src="images/pizza/10.png" alt="">
+                    <h3>Sladké mámení<br>600g</h3>
+                    <p>nutela nebo marmeláda,<br />ovoce,<br />ananas,<br />topping</p>
+                    <h4>149,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">11</h1>
+                    <img src="images/pizza/11.png" alt="">
+                    <h3>Štamgast<br /><span>(velice ostrá)</span><br>700g</h3>
+                    <p>tom.omáčka, anglická slanina, šlehané vejce, klobása, chilli, paprikáš, feferony</p>
+                    <h4>165,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">12</h1>
+                    <img src="images/pizza/12.png" alt="">
+                    <h3>Žampionová<br>700g</h3>
+                    <p>tom.omáčka,<br />eidam,<br />žampióny,<br />šunka</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">13</h1>
+                    <img src="images/pizza/13.png" alt="">
+                    <h3>Tvarůžková Missisipi<br>650g</h3>
+                    <p>tom.omáčka,<br />eidam,<br />šunka,<br />tvarůžky</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">14</h1>
+                    <img src="images/pizza/14.png" alt="">
+                    <h3>Origoš speciál<br>700g</h3>
+                    <p>smetana,<br />eidam, ementál,<br />uzený sýr, niva,<br />anglická slanina</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">15</h1>
+                    <img src="images/pizza/15.png" alt="">
+                    <h3>Vzpružovák<br>650g</h3>
+                    <p>tom.omáčka,<br />kyselé zelí,<br />anglická slanina,<br />klobása</p>
+                    <h4>155,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">16</h1>
+                    <img src="images/pizza/16.png" alt="">
+                    <h3>Tuňáková<br>750g</h3>
+                    <p>tom.omáčka,<br />eidam, tuňák,<br />černé olivy,<br />cibule</p>
+                    <h4>169,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">17</h1>
+                    <img src="images/pizza/17.png" alt="">
+                    <h3>Kari s kuřecím<br>700g</h3>
+                    <p>tom.omáčka,<br />eidam,<br />kuřecí maso,<br />cibule, kari</p>
+                    <h4>155,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">18</h1>
+                    <img src="images/pizza/18.1.png" alt="">
+                    <h3>Pizza dle vlastního výběru</h3>
+                    <p>výběr až<br />z deseti<br />nabízených<br />surovin</p>
+                    <h4>199,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">19</h1>
+                    <img src="images/pizza/19.png" alt="">
+                    <h3>Tomové plantáže<br>750g</h3>
+                    <p>tom.omáčka,<br />eidam, šunka,<br />paprikáš, uzený sýr,<br />kukuřice</p>
+                    <h4>155,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">20</h1>
+                    <img src="images/pizza/20.png" alt="">
+                    <h3>Smetanové pokušení<br>750g</h3>
+                    <p>smetana,<br />kukuřice, kuřecí maso,<br />žampióny, eidam,<br />pórek, česnek</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">21</h1>
+                    <img src="images/pizza/21.png" alt="">
+                    <h3>Broskvové potěšení<br>750g</h3>
+                    <p>tom.omáčka,<br />šunka, kuřecí maso,<br />broskev nebo ananas,<br />sýr</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">22</h1>
+                    <img src="images/pizza/22.png" alt="">
+                    <h3>Verona<br>750g</h3>
+                    <p>tom.omáčka,<br />eidam, šunka,<br />žampióny, uzený sýr,<br />niva, klobása</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">23</h1>
+                    <img src="images/pizza/23.png" alt="">
+                    <h3>Quattro<br>750g</h3>
+                    <p>tom.omáčka,<br />1/4 šunky, 1/4 kuřecího masa,<br />1/4 slaniny, 1/4 paprikáše,<br />eidam</p>
+                    <h4>165,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">24</h1>
+                    <img src="images/pizza/24.png" alt="">
+                    <h3>Quattro formaggi<br>650g</h3>
+                    <p>tom.omáčka,<br />1/4 eidamu, 1/4 uzeného sýru,<br />1/4 nivy,<br />1/4 hermelínu</p>
+                    <h4>160,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">25</h1>
+                    <img src="images/pizza/25.png" alt="">
+                    <h3>Vegetariánská<br>750g</h3>
+                    <p>tom.omáčka,<br />brokolice, pórek,<br />rajče, kukuřice,<br />eidam, žampióny</p>
+                    <h4>155,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">26</h1>
+                    <img src="images/pizza/26.png" alt="">
+                    <h3>Špenátová<br>750g</h3>
+                    <p>tom.omáčka,<br />špenát, anglická slanina,<br />vejce, eidam,<br />česnek</p>
+                    <h4>165,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">27</h1>
+                    <img src="images/pizza/27.png" alt="">
+                    <h3>Kotulova pizza<br>800g</h3>
+                    <p>smetana,<br />šunka, uzený sýr, niva,<br />kuřecí maso, eidam, kukuřice,<br />olivy, anglická slanina</p>
+                    <h4>175,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">28</h1>
+                    <img src="images/pizza/28.png" alt="">
+                    <h3>Balkán<br>700g</h3>
+                    <p>tom.omáčka,<br />eidam, paprika, rajče,<br />brokolice, hrášek, kukuřice,<br />balkánský sýr</p>
+                    <h4>159,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">29</h1>
+                    <img src="images/pizza/29.png" alt="">
+                    <h3>Pepíno<br>750g</h3>
+                    <p>tom.omáčka,<br />kuřecí maso, vepřové maso,<br />česnek, cibule, eidam,<br />paprikáš, anglická slanina</p>
+                    <h4>175,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">30</h1>
+                    <img src="images/pizza/30.png" alt="">
+                    <h3>Bari<br>750g</h3>
+                    <p>smetana,<br/>šunka,<br />kuřecí maso nebo vepřové maso,<br />eidam, rajče</p>
+                    <h4>175,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">31</h1>
+                    <img src="images/pizza/31.png" alt="">
+                    <h3>Pepkův mls<br>700g</h3>
+                    <p>smetana,<br />špenát, kuřecí maso,<br />česnek,<br />mozzarella</p>
+                    <h4>165,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">32</h1>
+                    <img src="images/pizza/32.png" alt="">
+                    <h3>Mozzarella<br>650g</h3>
+                    <p>smetana,<br />mozzarella, uzený sýr,<br />brokolice, kukuřice,<br />rajče, bazalka</p>
+                    <h4>169,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">33</h1>
+                    <img src="images/pizza/33.png" alt="">
+                    <h3>Plody moře<br>650g</h3>
+                    <p>tom. omáčka,<br />šunka,<br />eidam,<br />plody moře</p>
+                    <h4>189,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">34</h1>
+                    <img src="images/pizza/18.1.png" alt="">
+                    <h3>Western<br>780g</h3>
+                    <p>tom. omáčka,<br />chilli, cibule, eidam,<br />klobáska, červené fazole,<br />feferóny, kukuřice</p>
+                    <h4>155,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">35</h1>
+                    <img src="images/pizza/18.1.png" alt="">
+                    <h3>Salámová<br>650g</h3>
+                    <p>tom. omáčka,<br />eidam, šunka,<br />paprikáš, klobáska,<br />anglická slanina</p>
+                    <h4>165,-Kč / <b>Ø 32cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">45</h1>
+                    <img src="images/pizza/18.1.png" alt="">
+                    <h3>Del Capitano<br><span>PRŮMĚR 45cm !!!</span></h3>
+                    <p>možnost výběru podkladu - tom. omáčka nebo smetana,<br />možnost výběru z pěti nabízených surovin</p>
+                    <h4>269,-Kč / <b>Ø 45cm</b></h4>
+                </div>
+                <div class="menu-box">
+                    <h1 class="item-number">60</h1>
+                    <img src="images/pizza/18.1.png" alt="">
+                    <h3>Troppo grande<br><span>PRŮMĚR 60cm !!!</span></h3>
+                    <p>možnost výběru podkladu - tom. omáčka nebo<br />smetana,<br />možnost výběru z pěti nabízených surovin</p>
+                    <h4>399,-Kč / <b>Ø 60cm</b></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTOVINY design -->
+    <section class="menu" id="pasta">
+        <h2 class="heading">— Naše <span>Těstoviny</span> —</h2>
+        <div class="menu-container">
+            <div class="menu-box">
+                <h1 class="item-number">1</h1>
+                <img src="images/ikony/pastaIcon.jpg" alt="">
+                <h3>Těstoviny č. 1<br>550g</h3>
+                <p>Těstoviny, 4 druhy sýrů, smetanová omáčka, kuřecí</p>
+                <h4>149,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <h1 class="item-number">2</h1>
+                <img src="images/ikony/pastaIcon.jpg" alt="">
+                <h3>Těstoviny č. 2<br>550g</h3>
+                <p>Těstoviny, masová směs, tomat, česnek, eidam</p>
+                <h4>149,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <h1 class="item-number">3</h1>
+                <img src="images/ikony/pastaIcon.jpg" alt="">
+                <h3>Těstoviny č. 3<br>550g</h3>
+                <p>Těstoviny, slanina, vejce, česnek, smetana, niva</p>
+                <h4>149,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <h1 class="item-number">4</h1>
+                <img src="images/ikony/pastaIcon.jpg" alt="">
+                <h3>Těstoviny č. 4<br>550g</h3>
+                <p>Těstoviny, šunka, žampión, niva, smetana, pórek, parmazán</p>
+                <h4>159,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <h1 class="item-number">5</h1>
+                <img src="images/ikony/pastaIcon.jpg" alt="">
+                <h3>Těstoviny č. 5<br>550g</h3>
+                <p>Těstoviny, brokolice, žampión, smetana, kari, niva</p>
+                <h4>149,-Kč</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- MINUTKY design -->
+    <section class="menu" id="minutes">
+        <h2 class="heading">— Naše <span>Minutky</span> —</h2>
+        <div class="menu-container">
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt=""><!-- "https://www.flaticon.com/free-icons/pasta" Pasta icons created by Smashicons - Flaticon</a>-->
+                <h3>Smažený sýr<br>120g</h3>
+                <h4>125,-Kč</h4>
+            </div>  
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Smažený sýr se šunkou<br>130g</h3>
+                <h4>135,-Kč</h4>
+            </div>  
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Smažený hermelín<br>120g</h3>
+                <h4>125,-Kč</h4>
+            </div>      
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Smažené žampióny<br>180g</h3>
+                <h4>125,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Kuřecí smažený řízek<br>150g</h3>
+                <h4>135,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Vepřový smažený řízek<br>150g</h3>
+                <h4>135,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Přírodní kuřecí řízek<br>150g</h3>
+                <h4>135,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Přírodní vepřový řízek<br>150g</h3>
+                <h4>135,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Ohnivé maso<br/><br/>150g</h3>
+                <h4>135,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Kuřecí nudličky<br />s nivou<br>150g</h3>
+                <h4>135,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Smažený hermelín plněný slaninou<br>130g</h3>
+                <h4>135,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Kuřecí kapsa<br /><span>(sýr, šunka)</span><br>150g</h3>
+                <h4>149,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/ikony/foodIcon.jpg" alt="">
+                <h3>Pečené vykoštěné koleno<br>500g</h3>
+                <p>koleno, křen, hořčice, okurek, 3 krajíce chleba</p>
+                <h4>209,-Kč</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRILOHY design -->
+    <section class="menu" id="fries">
+        <h2 class="heading">— Naše <span>Přílohy</span> —</h2>   
+        <div class="menu-container">
+            <div class="menu-box">
+                <img src="images/prilohy/fries.png" alt="">
+                <h3>Hranolky<br>200g</h3>
+                <h4>39,-Kč</h4>
+            </div>   
+            <div class="menu-box">
+                <img src="images/prilohy/crockets.png" alt="">
+                <h3>Krokety<br>200g</h3>
+                <h4>45,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/prilohy/americanPotato.png" alt="">
+                <h3>Americké brambory<br>200g</h3>
+                <h4>45,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/prilohy/ketchup.png" alt="">
+                <h3>Kečup<br>30g</h3>
+                <h4>12,-Kč</h4>
+            </div>   
+            <div class="menu-box">
+                <img src="images/prilohy/tatarSauce.png" alt="">
+                <h3>Tatarská omáčka<br>30g</h3>
+                <h4>12,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/prilohy/foodBox.png" alt="">
+                <h3>Box na jídlo<br>Cena za 1 kus</h3>
+                <h4>10,-Kč</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRIDAVKY design -->
+    <section class="about" id="additions">
+        <div class="menu-box">
+            <h2 class="heading">— Naše <span>Přídavky</span> —</h2>
+            <table id="opening-hours">
+                <tbody>
+                    <tr>
+                        <td>
+                            <h3><span>Eidam, Uzený sýr, Šunka, Anglická slanina, Paprikáš, Klobása</span></h3>
+                        </td>
+                        <td>
+                            <h4>30,-Kč</h4>
+                            <h3>30g</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3><span>Vejce, Tomatová omáčka, Česnek, Feferony, Cibule, Kyselé zelí, Chilli, Pórek</span></h3>
+                        </td>
+                        <td>
+                            <h4>15,-Kč</h4>
+                            <h3>30g</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3><span>Kuřecí maso, Vepřové maso, Tvarůžky, Hermelín, Romadůr, Niva, Balkánský sýr, Mozzarella, Tuňák, Parmazán</span></h3>
+                        </td>
+                        <td>
+                            <h4>30,-Kč</h4>
+                            <h3>30g</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3><span>Brokolice, Kukuřice, Rajče, Paprika, Hrášek, Kozí rohy, Černé olivy, Žampióny, Broskev, Červené fazole,
+                            Ananas, Špenát, Hrášek</span></h3>
+                        </td>
+                        <td>
+                            <h4>30,-Kč</h4>
+                            <h3>30g</h3>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- NAPOJE design -->
+    <section class="menu" id="drinks">
+        <h2 class="heading">— Naše <span>Nápoje</span> —</h2>
+        <h3>Alkoholické nápoje</h3>
+        <div class="menu-container">
+            <div class="menu-box">
+                <img src="images/napoje/radegast12°.png" alt="">
+                <h3>Radegast 12°<br>0,5l</h3>
+                <p>Plech</p>
+                <h4>35,-Kč</h4>
+            </div>     
+            <div class="menu-box">
+                <img src="images/napoje/radegast10°.png" alt="">
+                <h3>Radegast 10°<br>0,5l</h3>
+                <p>Plech</p>
+                <h4>32,-Kč</h4>
+            </div>      
+            <div class="menu-box">
+                <img src="images/napoje/templarCerveny.png" alt="">
+                <h3>Víno červené Templářské sklepy<br>1l</h3>
+                <p>láhev</p>
+                <h4>150,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/vinoBileTemplarske.png" alt="">
+                <h3>Templářské Sklepy Čejkovice bílé suché<br>750ml</h3>
+                <p>láhev</p>
+                <h4>150,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/saintCroix.png" alt="">
+                <h3>Sekt Saint Croix Bílý<br>0,75l</h3>
+                <p>láhev</p>
+                <h4>180,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/muchaSekt.png" alt="">
+                <h3>Mucha Sekt Demi Sec<br>0,75l</h3>
+                <p>láhev</p>
+                <h4>180,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/muller.png" alt="">
+                <h3>Zámecký Müller suché<br>1l</h3>
+                <p>láhev</p>
+                <h4>180,-Kč</h4>
+            </div>
+        </div>
+        <h3>Nealkoholické nápoje</h3>
+        <div class="menu-container">
+            <div class="menu-box">
+                <img src="images/napoje/pepsi0.33l.png" alt="">
+                <h3>Pepsi<br>0,33l</h3>
+                <p>Plech</p>
+                <h4>20,-Kč</h4>
+            </div>   
+            <div class="menu-box">
+                <img src="images/napoje/pepsi0.5l.png" alt="">
+                <h3>Pepsi<br>0,5l</h3>
+                <p>PET</p>
+                <h4>30,-Kč</h4>
+            </div>   
+            <div class="menu-box">
+                <img src="images/napoje/pepsi1.5l.png" alt="">
+                <h3>Pepsi<br>1,5l</h3>
+                <p>PET</p>
+                <h4>45,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/mirinda0.5l.png" alt="">
+                <h3>Mirinda<br>0,5l</h3>
+                <p>PET</p>
+                <h4>30,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/mirinda1.5l.png" alt="">
+                <h3>Mirinda<br>1,5l</h3>
+                <p>PET</p>
+                <h4>45,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/birellMalinaLimetka.png" alt="">
+                <h3>Birell ochucený<br>0,5l</h3>
+                <p>Malina & Limetka<br/>Plech</p>
+                <h4>30,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/birellCitron.png" alt="">
+                <h3>Birell ochucený<br>0,5l</h3>
+                <p>Polotmavý citrón<br />Plech</p>
+                <h4>30,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/liptonPeach.png" alt="">
+                <h3>Ledový čaj<br>0,5l</h3>
+                <p>PET</p>
+                <h4>30,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/aloeVera.png" alt="">
+                <h3>Alloe Vera<br>0,5l</h3>
+                <p>PET</p>
+                <h4>40,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/mattoni.png" alt="">
+                <h3>Mattoni ochucená<br>1,5l</h3>
+                <p>PET</p>
+                <h4>35,-Kč</h4>
+            </div>
+            <div class="menu-box">
+                <img src="images/napoje/energyDrinks.png" alt="">
+                <h3>Energy drink<br>0,5l</h3>
+                <p>Plech</p>
+                <h4>40,-Kč</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAKT design -->
+    <section class="contact" id="contact">
+        <div class="home-content">
+            <h2 class="heading">— Kontaktuje <span>Nás!</span> —</h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Celé jméno">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Telefonní číslo">
+                    <input type="text" placeholder="Předmět">
+                </div>
+                <textarea name="" id="" cols="39" rows="10" placeholder="Vaše zpráva"></textarea>
+                <input type="submit" value="Poslat zprávu" class="btn">
+            </form>
+            <div class="contact-info">
+                <i class='bx bxs-phone-call'></i>
+                <h1>+420 774 610 817</h1>
+                <p>Ne - Čt: 11:00 - 22:00 <br />Pá - So: 11:00 - 23:00</p>
+            </div>
+        </div>
+        <div class="home-img">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.1262628064937!2d18.416216375880087!3d49.78369047147255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713f94b3f626cc7%3A0x4f2eef9b5d218a81!2zTmEgTsOhYsWZZcW-w60gMjMxLzYsIE3Em3N0bywgNzM2IDAxIEhhdsOtxZlvdg!5e0!3m2!1scs!2scz!4v1685025491901!5m2!1scs!2scz"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>

@@ -1,0 +1,545 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\css\\adminStyle.css",
+      "PackagePath": "staticwebassets\\css\\adminStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\css\\loginStyle.css",
+      "PackagePath": "staticwebassets\\css\\loginStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\action.png",
+      "PackagePath": "staticwebassets\\images\\action.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\app2.png",
+      "PackagePath": "staticwebassets\\images\\app2.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\delivery-girl.png",
+      "PackagePath": "staticwebassets\\images\\delivery-girl.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\ikony\\foodIcon.jpg",
+      "PackagePath": "staticwebassets\\images\\ikony\\foodIcon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\ikony\\foodIcon.jpg~",
+      "PackagePath": "staticwebassets\\images\\ikony\\foodIcon.jpg~"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\ikony\\pastaIcon.jpg",
+      "PackagePath": "staticwebassets\\images\\ikony\\pastaIcon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\ikony\\pastaIcon.kra",
+      "PackagePath": "staticwebassets\\images\\ikony\\pastaIcon.kra"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\ikony\\phone.png",
+      "PackagePath": "staticwebassets\\images\\ikony\\phone.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\logo-demarco.png",
+      "PackagePath": "staticwebassets\\images\\logo-demarco.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\aloeVera.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\aloeVera.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\birellCitron.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\birellCitron.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\birellMalinaLimetka.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\birellMalinaLimetka.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\energyDrinks.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\energyDrinks.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\liptonPeach.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\liptonPeach.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\mattoni.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\mattoni.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\mirinda0.5l.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\mirinda0.5l.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\mirinda1.5l.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\mirinda1.5l.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\muchaSekt.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\muchaSekt.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\muller.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\muller.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\pepsi0.33l.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\pepsi0.33l.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\pepsi0.5l.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\pepsi0.5l.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\pepsi1.5l.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\pepsi1.5l.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\radegast10°.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\radegast10°.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\radegast12°.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\radegast12°.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\saintCroix.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\saintCroix.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\templarCerveny.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\templarCerveny.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\napoje\\vinoBileTemplarske.png",
+      "PackagePath": "staticwebassets\\images\\napoje\\vinoBileTemplarske.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\1.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\10.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\11.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\12.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\13.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\13.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\14.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\15.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\15.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\16.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\16.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\17.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\17.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\18.1.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\18.1.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\19.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\19.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\2.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\20.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\20.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\21.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\21.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\22.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\22.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\23.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\23.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\24.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\24.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\25.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\25.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\26.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\26.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\27.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\27.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\28.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\28.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\29.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\29.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\3.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\30.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\30.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\31.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\31.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\32.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\32.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\33.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\33.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\4.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\5.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\6.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\7.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\8.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\pizza\\9.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\prilohy\\americanPotato.png",
+      "PackagePath": "staticwebassets\\images\\prilohy\\americanPotato.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\prilohy\\crockets.png",
+      "PackagePath": "staticwebassets\\images\\prilohy\\crockets.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\prilohy\\foodBox.png",
+      "PackagePath": "staticwebassets\\images\\prilohy\\foodBox.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\prilohy\\fries.png",
+      "PackagePath": "staticwebassets\\images\\prilohy\\fries.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\prilohy\\hranolky.png",
+      "PackagePath": "staticwebassets\\images\\prilohy\\hranolky.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\prilohy\\ketchup.png",
+      "PackagePath": "staticwebassets\\images\\prilohy\\ketchup.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\images\\prilohy\\tatarSauce.png",
+      "PackagePath": "staticwebassets\\images\\prilohy\\tatarSauce.png"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\js\\adminScript.js",
+      "PackagePath": "staticwebassets\\js\\adminScript.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\js\\loginScript.js",
+      "PackagePath": "staticwebassets\\js\\loginScript.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\turba\\Desktop\\Pizzerie\\Pizzerie\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Pizzerie.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Pizzerie.props",
+      "PackagePath": "build\\Pizzerie.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Pizzerie.props",
+      "PackagePath": "buildMultiTargeting\\Pizzerie.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Pizzerie.props",
+      "PackagePath": "buildTransitive\\Pizzerie.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
